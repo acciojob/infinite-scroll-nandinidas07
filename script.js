@@ -7,7 +7,7 @@ function addItems(count) {
   for (let i = 0; i < count; i++) {
     itemCount++;
     const li = document.createElement('li');
-    li.innerText = Item ${itemCount};
+    li.innerText = `Item ${itemCount}`;
     list.appendChild(li);
   }
 }
